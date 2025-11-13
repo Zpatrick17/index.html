@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Patrick John L. Alipio | BSIS Student & Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Portfolio</text></svg>">
+</head>
+<body class="light-mode">
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>PATRICK <span>ALIPIO</span></h1>
+            </div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact" class="hire-btn">Hire Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Patrick John</span></h1>
+                    <p class="tagline">BS Information Systems Student • Web Developer • Problem Solver</p>
+                    <p class="bio">Passionate about building efficient systems and creating user-friendly digital experiences. Ready to contribute fresh ideas and strong work ethic to your team.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn primary">Let's Talk</a>
+                        <a href="resume.pdf" download class="btn secondary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="PJA.jpg" alt="Patrick Alipio" />
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a <strong>4th-year BS Information Systems</strong> student at <strong>Santa Rita College</strong>, driven by a passion for technology and innovation.</p>
+                    <p>With hands-on experience in operations and customer service, I bring a unique blend of technical skills and real-world problem-solving to every project.</p>
+                    <p>My goal: <strong>Help your company grow</strong> while continuously improving myself.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>23</h3>
+                        <p>Years Old</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Certificates</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1</h3>
+                        <p>Live Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Education -->
+<section id="education" class="section bg-glass">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-card active">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-content">
+                <h3>Bachelor of Science in Information System</h3>
+                <p>Santa Rita College, San Jose, Sta. Rita, Pampanga</p>
+                <span class="year">2022 – Present (2nd Year College)</span>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div class="edu-content">
+                <h3>Senior High School – General Academic Strand</h3>
+                <p>San Roque Dau Senior High School, San Roque, Dau 1st, Lubao, Pampanga</p>
+                <span class="year">2017 – 2019</span>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-book"></i></div>
+            <div class="edu-content">
+                <h3>Junior High School</h3>
+                <p>San Roque Dau High School, San Roque, Dau 1st, Lubao, Pampanga</p>
+                <span class="year">2013 – 2017</span>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-pencil-alt"></i></div>
+            <div class="edu-content">
+                <h3>Primary Education</h3>
+                <p>San Roque Dau Academy, San Roque, Dau 1st, Lubao, Pampanga</p>
+                <span class="year">2006 – 2013</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="exp-timeline">
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <h3>Production Staff</h3>
+                        <p class="company">Superl Inc.</p>
+                        <span class="duration">2018 – 2019</span>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <h3>Service Crew</h3>
+                        <p class="company">Chowking</p>
+                        <span class="duration">2019 – 2020</span>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <h3>Kitchen Staff</h3>
+                        <p class="company">Mallows</p>
+                        <span class="duration">2020 – 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-glass">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>HTML/CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="bar"><div class="fill" style="width: 70%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>MS Office</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="bar"><div class="fill" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Communication</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <div class="project-showcase">
+                <div class="project-mockup">
+                    <img src="Poster.png" alt="Lourdes School Website" />
+                    <div class="mockup-frame"></div>
+                </div>
+                <div class="project-details">
+                    <h3>Lourdes School of Lubao</h3>
+                    <p>A modern, responsive school website with enrollment system, events calendar, and admin panel.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive</span>
+                    </div>
+                    <a href="https://lourdesschoollubao.com" target="_blank" class="btn primary">View Live Site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section bg-glass">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certs-grid">
+                <div class="cert-item" onclick="openModal('1.png', 'PMI')">
+                    <img src="1.png" alt="" />
+                    <div class="cert-label">PMI</div>
+                </div>
+                <div class="cert-item" onclick="openModal('2.png', 'DATA ANALYTICS')">
+                    <img src="2.png" alt="" />
+                    <div class="cert-label">DATA ANALYTICS</div>
+                </div>
+                <div class="cert-item" onclick="openModal('3.png', 'ENGAGING SKATEHOLDERS')">
+                    <img src="3.png" alt="" />
+                    <div class="cert-label">ENGAGING SKATEHOLDERS</div>
+                </div>
+                <div class="cert-item" onclick="openModal('4.png', 'INTRODUCTION OF DATA SCIENCE')">
+                    <img src="4.png" alt="" />
+                    <div class="cert-label">INTRODUCTION OF DATA SCIENCE</div>
+                </div>
+                <div class="cert-item" onclick="openModal('5.png', 'INTRODUCTION OF CYBERSECURITY Certificate')">
+                    <img src="5.png" alt="" />
+                    <div class="cert-label">INTRODUCTION OF CYBERSECURITY</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Purok 2, Lambac, Guagua, Pampanga</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>0928-533-0422</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alipiopatrick9@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Patrick John L. Alipio. Built with passion.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="certModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">×</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption" class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
